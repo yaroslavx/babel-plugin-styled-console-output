@@ -1,27 +1,23 @@
 # babel-plugin-styled-console-output
 
-> one-liner description of the module
-
-background details relevant to understanding what this module does
-
 ## Usage
 
 ```js
-var babelPluginStyledConsoleOutput = require('babel-plugin-styled-console-output')
+const babelPluginStyledConsoleOutput = require('babel-plugin-styled-console-output');
 
-console.log('hello warld')
+console.log('yeah!');
 ```
 
 outputs
 
 ```
-hello warld
+yeah! // but styled
 ```
 
 ## API
 
 ```js
-var babelPluginStyledConsoleOutput = require('babel-plugin-styled-console-output')
+var babelPluginStyledConsoleOutput = require('babel-plugin-styled-console-output');
 ```
 
 See [api_formatting.md](api_formatting.md) for tips.
@@ -38,12 +34,6 @@ $ npm install babel-plugin-styled-console-output
 
 babel-plugin-styled-console-output was inspired by..
 
-## See Also
-
-- [`noffle/common-readme`](https://github.com/noffle/common-readme)
-- ...
-
 ## License
 
 MIT
-
