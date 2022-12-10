@@ -2,16 +2,41 @@
 
 ## Usage
 
+.babelrc / babel.config.json
+
+```js
+{
+  "plugins": [
+    // ...
+    [
+      "module:babel-plugin-styled-console-output",
+      {
+        "types": {
+          "error": { "color": "royalblue", "background": "#fafafa", "divider": "$" },
+          "log": {
+            "border": "1px solid royalblue ",
+            "font-weight": "500",
+            "padding": "11px"
+          }
+        }
+      }
+    ]
+  ]
+}
+```
+
 ```js
 const babelPluginStyledConsoleOutput = require('babel-plugin-styled-console-output');
 
-console.log('yeah!');
+console.log('oh', 'yeah!');
+console.error('oh', 'no');
 ```
 
 outputs
 
 ```
-yeah! // but styled
+oh yeah! // but styled
+oh$no // but styled
 ```
 
 ## API
