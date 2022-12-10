@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.20.5"
+  },
+  "name": "babel-plugin-styled-console-output",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yaroslav Yakupov <yakupov.yaroslav@icloud.com>",
+  "license": "MIT"
+}
