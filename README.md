@@ -2,6 +2,13 @@
 
 ## Usage
 
+```js
+const babelPluginStyledConsoleOutput = require('babel-plugin-styled-console-output');
+
+console.log('oh', 'yeah!');
+console.error('oh', 'no');
+```
+
 .babelrc / babel.config.json
 
 ```js
@@ -25,13 +32,6 @@
 }
 ```
 
-```js
-const babelPluginStyledConsoleOutput = require('babel-plugin-styled-console-output');
-
-console.log('oh', 'yeah!');
-console.error('oh', 'no');
-```
-
 outputs
 
 ```
@@ -42,7 +42,7 @@ oh$no // but styled
 ## API
 
 ```js
-var babelPluginStyledConsoleOutput = require('babel-plugin-styled-console-output');
+const babelPluginStyledConsoleOutput = require('babel-plugin-styled-console-output');
 ```
 
 See [api_formatting.md](api_formatting.md) for tips.
